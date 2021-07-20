@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simple Ray Tracing in Rust: Basics"
+title:  "Simple Ray Tracing in Rust 1: Basics"
 categories: ray_tracer
 ---
 
@@ -178,6 +178,8 @@ light from the light source to the camera, we draw
 *from the camera to the light source*! This saves us
 orders of magnitude of ray calculations.
 
+## Conclusion
+
 A quick recap of our basic algorithm:
 
 1. Draw a light ray from the `Camera` through
@@ -189,4 +191,4 @@ each pixel-corresponding region of our `ViewPlane`
     surface is to light source
 3. Repeat for every pixel
 
-Let's get coding!
+Alright, let's get coding!
