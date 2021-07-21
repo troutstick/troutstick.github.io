@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Hi, and welcome to my blog! I'm Justin, an ever-curious student currently studying Computer Science at UC Berkeley.
+I'm also a software development officer for Berkeley's chapter of [Upsilon Pi Epsilon](https://upe.berkeley.edu/),
+a CS honor society.
 
 
-[jekyll-organization]: https://github.com/jekyll
+I absolutely love writing programs in Rust, which has given me a taste for embedded development
+and sleek, efficient, performant code. In fact, it was my experiences with the Rust language
+that inspired me to start writing here!
+In my spare time, I enjoy biking and running, and I love going down Wikipedia
+rabbit holes.
+
+Proud Linux user and Rust evangelist. Trans rights are human rights.
