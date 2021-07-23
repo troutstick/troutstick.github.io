@@ -28,6 +28,12 @@ struct Vector {
     dy: f64,
     dz: f64,
 }
+
+impl Vector {
+    const fn new(dx: f64, dy: f64, dz: f64) -> Vector {
+        Vector { dx, dy, dz }
+    }
+}
 {% endhighlight %}
 
 Each `Vector` is a 3D coordinate, and 3 of them
@@ -38,6 +44,12 @@ struct Triangle {
     v1: Vector,
     v2: Vector,
     v3: Vector,
+}
+
+impl Triangle {
+    fn new(v1: Vector, v2: Vector, v3: Vector) -> Triangle {
+        Triangle { v1, v2, v3 }
+    }
 }
 {% endhighlight %}
 
