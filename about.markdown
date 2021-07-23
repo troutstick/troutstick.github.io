@@ -15,4 +15,3 @@ In my spare time, I enjoy biking and running, and I love going down Wikipedia
 rabbit holes.
 
 Proud Linux user and [Rust evangelist](https://en.wikipedia.org/wiki/Crab).
-Trans rights are human rights.
