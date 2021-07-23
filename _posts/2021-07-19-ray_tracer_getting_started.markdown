@@ -9,7 +9,7 @@ graphics, and hides an astonishing amount of depth within its possible implement
 all the while taking advantage of the Rust programming language's incredible speed, flexibility, and modernity.
 
 If you want to get into the conceptual weeds, Steven Waterman already made [an excellent blogpost](https://blog.scottlogic.com/2020/03/10/raytracer-how-to.html) on intuitively building a ray tracer. This series will be about translating these high
-level concepts into working Rust code.
+level concepts into working Rust code. You can view my completed codebase [here](https://github.com/troutstick/ray_tracer).
 
 ## 3D Objects
 
