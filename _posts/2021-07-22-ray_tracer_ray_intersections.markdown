@@ -100,7 +100,7 @@ We update `main` to initialize our `Scene`.
 fn main() {
     // arg processing and triangles...
 
-    let mut scene = Scene::new(triangles);
+    let scene = Scene::new(triangles);
 
     // ...
 }
@@ -603,6 +603,19 @@ fn iterate_over_rays(&self) -> Vec<Color> {
     pixel_colors
 }
 {%- endhighlight -%}
+
+We update our `main` function accordingly to reflect
+our ray tracing method.
+
+{% highlight rust %}
+fn main() {
+    // initialize scene
+
+    let pixels = scene.iterate_over_rays();
+
+    // ...
+}
+{% endhighlight %}
 
 Huzzah! We now have a super basic ray tracer!
 
