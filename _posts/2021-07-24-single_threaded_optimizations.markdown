@@ -57,8 +57,8 @@ of sunlight to our codebase!
 First, we need a new struct to represent our light.
 It has two necessary parameters:
     
-    1. The incoming angle of light
-    2. The brightness/color of light
+1. The incoming angle of light
+2. The brightness/color of light
 
 Notice that we don't actually need to specify
 the light source's coordinates. Instead,
