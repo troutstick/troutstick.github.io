@@ -430,7 +430,6 @@ impl Scene {
             camera: Camera::new(),
             triangles,
             triangle_planes,
-            bounding_boxes,
         }
     }
 }

@@ -169,7 +169,7 @@ directions, and the only factors affecting brightness are:
 ### From Reflection To Camera
 
 |![Camera and View Plane](/assets/ViewFrustum.svg){:height="200px"}|
-|*A camera with two view planes. [Source.](https://commons.wikimedia.org/wiki/File:ViewFrustum.svg)*|
+|*A camera with two view planes. [Source.](https://commons.wikimedia.org/wiki/File:Crepuscular_Rays,_India.JPG)*|
 
 After calculating the brightness of a surface, we
 trace the path that the light would take to the camera.
