@@ -4,7 +4,7 @@ title:  "The Beauty of Programming"
 categories: rust_shell
 ---
 
-Why study computer science?
+# Why study computer science?
 
 Inevitably, the answer to this ticks at least one of three boxes:
 
@@ -37,7 +37,9 @@ programmers enter university programs, trudging
 through *Introduction To Computer Science* courses
 and wondering if there's another way.
 
-UC Berkeley's Introductory CS course, CS61A,
+## Functional Programming: An Arcane Art
+
+UC Berkeley's introductory CS course, CS61A,
 instilled in me a vision of the greener grass
 on the other side. Unlike many of my classmates,
 I enrolled in it without having printed a single
@@ -50,5 +52,27 @@ almost none of us were prepared for the absolute
 f*ckery that was function currying.
 
 {%- highlight python -%}
-def 
+def create_adder(x):
+    def add(y):
+        return x + y
+    return add 
+
+add_2 = create_adder(2)
+add_2(3) == 5
 {%- endhighlight -%}
+
+Some of us enjoyed it. Most of us hated it. Few
+understood *why* we were learning this arcane
+art, when we could just as easily write `2 + 3 == 5`.
+
+The tragedy is that the beauty of functional programming
+in CS61A is rapidly snuffed out by the practical reality
+of Berkeley's following programming course, CS61B, which
+presents to students the absolute carnage of writing
+large-scale projects in the OOP posterboy language of
+Java. The vast majority of Berkeley CS students,
+or at least my peers, take the Pythonic exercises
+of our first semester to be something akin
+to a tiger jumping through hoops: it's cool, but
+useless; why curry functions when loops and if-else
+statements can get you everything you want?
