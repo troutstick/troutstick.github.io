@@ -205,3 +205,17 @@ Still, coding programs like these (or seeing others' code)
  gave me a much needed
 breather from the inflexible, uncompromising OOP
 approach that Java outlines.
+
+## The Beauty (and Horror) of C 
+
+One step below Javaland lies a basilisk in the depths,
+the lurking beast that we call manual memory management.
+While many of us despise languages like C for brutish unsafety,
+I have to admit that there's a certain allure to C's near
+one-to-one correspondance with machine code, and its utter
+disregard for typecast safety. And it's hard to look
+at code such as *Quake III Arena*'s [fast inverse square root
+](https://en.wikipedia.org/wiki/Fast_inverse_square_root) and
+not be in awe of its mechanical simplicity.
+
+The code that I write in C is most certainly not this beautiful.
