@@ -14,13 +14,12 @@ Inevitably, the 2021 answer to this ticks at least one of three boxes:
 2. You like money.
 3. Your parents (or a similarly influential set of authority figures) want you to like money.
 
-Doubtless, we've all been told, explicitly or implicitly,
+Doubtless, we've all been told 
 that you need to check off Point 1 before you should
-even consider a career in software. 
+even begin to consider a career in software. 
 If you don't enjoy your work, you will rapidly burn out
 and become a husk of an office worker, soullessly
-clacking away at a keyboard to enrich some faraway
-billionaires.
+clacking away at a keyboard for what, buying a Tesla?
 
 But I also believe that
 as software engineers, the programming languages that 
@@ -47,11 +46,11 @@ on the other side. Unlike many of my classmates,
 I enrolled in it without having printed a single
 "Hello world!" in my life. I had no preconceptions
 about what programming was or what it could be,
-and while students with prior programming
-exposure to the canonical OOP languages could do 
+and while students with prior exposure to languages
+like Java could do 
 loop-de-loops around `for` loops,
 almost none of us were prepared for the absolute
-f*ckery that was function currying.
+mind-f*ckery that was function currying.
 
 {%- highlight python -%}
 def create_adder(x):
@@ -68,21 +67,22 @@ understood *why* we were learning this arcane
 art, when we could just as easily write `2 + 3 == 5`.
 
 The tragedy is that the beauty of functional programming
-in CS61A is rapidly snuffed out by the practical reality
+in CS61A is rapidly snuffed out by the practical and depressing
+reality
 of Berkeley's following programming course, CS61B, which
 presents to students the absolute carnage of writing
-large-scale projects in the OOP posterboy language of
+large-scale projects in the OOP posterboy language that is 
 Java. The vast majority of Berkeley CS students,
-or at least my peers, take the Pythonic exercises
+or at least my peers, take the pythonic exercises
 of our first semester to be something akin
 to a tiger jumping through hoops: it's cool, but
-useless; why curry functions when loops and if-else
+useless. Why curry functions when loops and if-else
 statements can get you everything you want?
 
-The sad part is, this kind of thinking isn't even
+The sad part is that this kind of thinking isn't even
 entirely wrong. A software engineer could theoretically
 spend a lifetime without ever having to curry
-a single function, but it's tough to imagine a modern
+a single function, while it's tough to imagine a modern
 day career in programming that entirely avoids
 the object-oriented paradigm.
 
@@ -100,8 +100,9 @@ class Main {
 {%- endhighlight -%}
 
 Many a programmer has asked themselves something roughly along
-the lines of: 
-"The !%#&? Why must it be so complicated?"
+the lines of:
+
+# "The !%#&? Why must it be so complicated?"
 
 The Java experience is built around worshipping the
 object-oriented mode of thinking; even the simplest program
@@ -219,3 +220,74 @@ at code such as *Quake III Arena*'s [fast inverse square root
 not be in awe of its mechanical simplicity.
 
 The code that I write in C is most certainly not this beautiful.
+Unfortunately, C (and a disappointingly large number of well-known
+programming languages, I wager) make it very easy to write bad
+code. Large codebases written in C have to be very carefully maintained
+to avoid a slip-up, and even with its more modern language features,
+C's cousin language C++ falls in a similar boat. Unfortunately,
+the inherent memory unsafety in these languages leads to [the vast majority
+](https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html)
+of critical security errors.
+
+I think C is a beautiful language. In spite of (or perhaps even
+because of) its small size, it brings to the software engineer
+an enormous suite of flexibility when it comes to shaping the
+computer into humanity's ultimate power tool. With that said,
+it's unfortunate that this same power is its downfall in
+today's world, where fast yet secure and memory-safe codebases
+are at a premium.
+
+## Rust: The Current Happy Medium
+
+There's no doubt that Rust is one of the most promising
+new kids on the block. After a decade-long incubation
+as Mozilla's ace card, it's emerging as the perfect storm
+of memory safety, incredible runtime performance, refreshingly
+modern syntax, and a growing ecosystem of passionate contributors.
+I must admit my bias; Rust is by far my favorite programming
+language, but I definitely believe in my reasons for believing so.
+
+There have certainly been no shortage of Rust blogposts
+covering its amazing features, so I'll just leave a snippet
+of what I think is one of the most aesthetically
+pleasing bits of Rust code that I've found:
+
+
+{%- highlight rust -%}
+fn is_prime(n: u64) -> bool {
+    match n {
+        0...1 => false,
+        _ => !(2..n).any(|d| n % d == 0),
+    }
+}
+{%- endhighlight -%}
+
+In a world permeated by the imperative style of programming,
+it's a breath of fresh air to see a modern systems programming
+language tackle problems with such beautifully functional syntax.
+
+## Peering Below the Surface
+
+In the grand scheme of things, I know nothing. I love programming, but
+I cannot pretend that I currently anything more than a curious undergrad
+student, standing on the shoulders of giants.
+I cannot hope to cover even a fraction of the art that is
+beautifully written code,
+and as CGPGrey once wisely said: 
+
+# "Knowledge is fractal." 
+
+The universe
+is filled with possibility; the world of programming is but an
+infinitely small subset of the beauty that a human could
+possibly experience. The more I grow to learn about the
+world of computers, the more I can appreciate the incredible
+amounts of time and energy that countless engineers have poured
+into the software that all of our modern society relies on.
+
+In the end, I have to say that learning how to program,
+and especially learning to look at programming as more
+than just a means to a future occupation,
+has been one of the best decisions I've made in my adult
+life, and I have every intention of turning this into
+a lifelong passion.
