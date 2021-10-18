@@ -245,7 +245,7 @@ as Mozilla's ace card, it's emerging as the perfect storm
 of memory safety, incredible runtime performance, refreshingly
 modern syntax, and a growing ecosystem of passionate contributors.
 I must admit my bias; Rust is by far my favorite programming
-language, but I definitely believe in my reasons for believing so.
+language, but I definitely have faith in my beliefs.
 
 There have certainly been no shortage of Rust blogposts
 covering its amazing features, so I'll just leave a snippet
@@ -289,5 +289,5 @@ In the end, I have to say that learning how to program,
 and especially learning to look at programming as more
 than just a means to a future occupation,
 has been one of the best decisions I've made in my adult
-life, and I have every intention of turning this into
+life. And I have every intention of turning this into
 a lifelong passion.
