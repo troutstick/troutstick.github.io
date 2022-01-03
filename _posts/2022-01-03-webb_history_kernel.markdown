@@ -137,7 +137,7 @@ There is no filesystem, no shell, no userland, no multithreading.
 For all intents and purposes, it's useless. At least it doesn't need systemd,
 am I right?
 
-And I'm having fun. It's just like how I feel when imagine Webb finally
+And I'm having fun. It's just like how I feel when I imagine Webb finally
 scanning the starry skies from L2, or when I read a fascinating account
 of the lives of a rennaissance baker and his pet dog. I was born
 barely two decades ago and I know nothing, and yet, slowly but surely,
