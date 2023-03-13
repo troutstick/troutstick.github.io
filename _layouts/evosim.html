@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="home" style="text-align: center;">
+    <script type="module">
+        import init, { run_bevy_app } from './pkg/evolution_sim.js';
+        
+        init().then( () => {
+            run_bevy_app();
+        });
+        console.log('hello world');
+    </script>
+</div>

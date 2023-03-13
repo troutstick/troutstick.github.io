@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    {% assign dates = site.posts | map: 'date' %}
+    {% assign sorted_dates = dates | sort | reverse %}
+    <span class="post-meta">
+      Last updated on {{ sorted_dates | first | date: '%b %-d, %Y' }}
+    </span>
+  {%- endif -%}
+  <h3><a href="blog">My blog</a></h3>
+
+</div>
