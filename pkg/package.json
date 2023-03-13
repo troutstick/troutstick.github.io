@@ -1,0 +1,12 @@
+{
+  "name": "evolution-sim",
+  "version": "0.1.0",
+  "files": [
+    "evolution_sim_bg.wasm",
+    "evolution_sim.js",
+    "evolution_sim.d.ts"
+  ],
+  "module": "evolution_sim.js",
+  "types": "evolution_sim.d.ts",
+  "sideEffects": false
+}

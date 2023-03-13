@@ -1,11 +1,7 @@
 ---
-layout: post
+layout: evosim
 title:  "My evolution simulator"
 categories: evosim
 ---
-
-<script>
-  console.log('Hello, world!');
-</script>
 
 testing
