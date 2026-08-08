@@ -9,5 +9,4 @@ Hi, I'm Justin, and this is my website.
 Check out [my evolution simulator](evosim.html), inspired by similar projects
 such as Dylan Cope's Evolving Protozoa, or Max Robinson's Life Engine.
 
-Also check out [my blog](https://blog.justinthein.dev/)!
-
+This website is pretty old and jank and I'm in the process of migrating. Check out [my blog](https://blog.justinthein.dev/) at my new site!
